@@ -1,0 +1,27 @@
+Quest file must end with .quest and have:
+#Type - GatherQuest or HuntQuest
+HuntQuest
+#Name
+For the Horde!
+#Description
+What took you so long? Come we need help!
+
+I'm afraid some of our scouts have been captured. 
+We never leave one of our own behind, so we must free them, but sending in a small army will be the death of them for sure.
+Those Elfs will kill our scouts once they see us, they take no risks. 
+So we need you to go on your own, infiltrate their camp and save our troops. Curse those wretched lowlives.
+I'm sure you're capable to deal with those lowlives. Killing them all won't be needed of course, 
+I'm sure your skills will do enough damage to them.
+
+I have little possessions left, but I'll reward you with what I have. Please succeed hero, we believe in you.
+
+#Destination
+Gray Fox Woods
+#Enviroment
+Forest
+#Progress
+1
+#ItemRewards (item - id)
+6 7 11
+#ExperienceReward
+145

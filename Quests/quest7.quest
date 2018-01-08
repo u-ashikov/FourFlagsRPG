@@ -1,0 +1,23 @@
+Quest file must end with .quest and have:
+#Type - GatherQuest or HuntQuest
+HuntQuest
+#Name
+Stop the Old Ork!
+#Description
+Things have been too quiet lately, far too quiet...
+
+Our scouts report many small armies have set up camp on the borders of our lands.
+We need you to find and stop they leader The Old Ork!
+Do anything you can before it is too late...
+
+
+#Destination
+Border with Asyllenora the Elven City
+#Enviroment
+Forest
+#Progress
+1
+#ItemRewards (item - id)
+15 20 14
+#ExperienceReward
+100

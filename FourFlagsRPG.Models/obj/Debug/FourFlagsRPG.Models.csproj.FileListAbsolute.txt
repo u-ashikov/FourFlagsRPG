@@ -1,0 +1,6 @@
+C:\Users\uashi\Documents\GitHub\FourFlagsRPG\FourFlagsRPG.Models\bin\Debug\FourFlagsRPG.Models.dll
+C:\Users\uashi\Documents\GitHub\FourFlagsRPG\FourFlagsRPG.Models\bin\Debug\FourFlagsRPG.Models.pdb
+C:\Users\uashi\Documents\GitHub\FourFlagsRPG\FourFlagsRPG.Models\obj\Debug\FourFlagsRPG.Models.csprojResolveAssemblyReference.cache
+C:\Users\uashi\Documents\GitHub\FourFlagsRPG\FourFlagsRPG.Models\obj\Debug\FourFlagsRPG.Models.csproj.CoreCompileInputs.cache
+C:\Users\uashi\Documents\GitHub\FourFlagsRPG\FourFlagsRPG.Models\obj\Debug\FourFlagsRPG.Models.dll
+C:\Users\uashi\Documents\GitHub\FourFlagsRPG\FourFlagsRPG.Models\obj\Debug\FourFlagsRPG.Models.pdb

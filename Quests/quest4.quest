@@ -1,0 +1,23 @@
+Quest file must end with .quest and have:
+#Type - GatherQuest or HuntQuest
+HuntQuest
+#Name
+Make the them regret.
+#Description
+Adventurer, you've got to help me.
+
+Why won't they just leave us alone? We've got nothing left to give, yet they keep coming back for more.
+Hero, please, I beg of you, get rid of those disgusting brutes.
+I'm sure you're capable to deal with those Orcs. Make sure they regret the day they ever set foot in our lives. 
+
+I'm happy to say I'll be able to reward you handsomely for your troubles. For justice and honor!
+#Destination
+Orgrimmar
+#Enviroment
+Desert
+#Progress
+2
+#ItemRewards (item - id)
+4 10 21
+#ExperienceReward
+250

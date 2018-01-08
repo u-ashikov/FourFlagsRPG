@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{69909C35-FD16-4BC0-9858-BAF46AAC295A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FourFlagsRPG.Models</RootNamespace>
+    <AssemblyName>FourFlagsRPG.Models</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Contracts\Beings\IAttackable.cs" />
+    <Compile Include="Contracts\Beings\IBeing.cs" />
+    <Compile Include="Contracts\Beings\IVulnerable.cs" />
+    <Compile Include="Contracts\Enemies\IEnemy.cs" />
+    <Compile Include="Contracts\Engine\IEngine.cs" />
+    <Compile Include="Contracts\Heroes\ICollectable.cs" />
+    <Compile Include="Contracts\Heroes\IHealable.cs" />
+    <Compile Include="Contracts\Heroes\IHero.cs" />
+    <Compile Include="Contracts\IO\IFileReader.cs" />
+    <Compile Include="Contracts\IO\IFileWriter.cs" />
+    <Compile Include="Contracts\IO\IReader.cs" />
+    <Compile Include="Contracts\IO\IWriter.cs" />
+    <Compile Include="Contracts\Items\Armor\IArmor.cs" />
+    <Compile Include="Contracts\Items\Container\IContainer.cs" />
+    <Compile Include="Contracts\Items\Heal\IHeal.cs" />
+    <Compile Include="Contracts\Items\Container\IInventory.cs" />
+    <Compile Include="Contracts\Items\IItem.cs" />
+    <Compile Include="Contracts\Items\Container\ISlot.cs" />
+    <Compile Include="Contracts\Items\Weapon\IWeapon.cs" />
+    <Compile Include="Contracts\Quests\IQuest.cs" />
+    <Compile Include="Enums\ArmorType.cs" />
+    <Compile Include="Enums\HealthBonusPotionSize.cs" />
+    <Compile Include="Enums\HealthPotionSize.cs" />
+    <Compile Include="Enums\Hero.cs" />
+    <Compile Include="Enums\ItemState.cs" />
+    <Compile Include="Enums\Quests.cs" />
+    <Compile Include="Events\QuestCompletedEventArgs.cs" />
+    <Compile Include="Exceptions\QuestExceptions\InvalidEnemyException.cs" />
+    <Compile Include="Factories\HeroFactory.cs" />
+    <Compile Include="Factories\ItemFactory.cs" />
+    <Compile Include="Factories\QuestFactory.cs" />
+    <Compile Include="IO\File\FileReader.cs" />
+    <Compile Include="IO\File\FileWriter.cs" />
+    <Compile Include="Models\Items\ArmorItems\ChestTypeItems\HardLeatherArmor.cs" />
+    <Compile Include="Models\Items\ArmorItems\ChestTypeItems\IceblinkSprintMail.cs" />
+    <Compile Include="Models\Items\ArmorItems\ChestTypeItems\VenomWardBreastPlate.cs" />
+    <Compile Include="Models\Items\ArmorItems\FeetTypeItems\Gauntlets.cs" />
+    <Compile Include="Models\Items\ArmorItems\FeetTypeItems\MidheeledBuckledShoes.cs" />
+    <Compile Include="Models\Items\ArmorItems\FeetTypeItems\Vambraces.cs" />
+    <Compile Include="Models\Items\ArmorItems\GlovesTypeItems\Baldric.cs" />
+    <Compile Include="Models\Items\ArmorItems\GlovesTypeItems\BeastGloves.cs" />
+    <Compile Include="Models\Items\ArmorItems\GlovesTypeItems\Cuirass.cs" />
+    <Compile Include="Models\Items\ArmorItems\HeadTypeItems\MonmouthCap.cs" />
+    <Compile Include="Models\Items\ArmorItems\HeadTypeItems\NewsboyCap.cs" />
+    <Compile Include="Models\Items\ArmorItems\HeadTypeItems\WideBrimmedHat.cs" />
+    <Compile Include="Models\Items\Health\GreaterPotion.cs" />
+    <Compile Include="Models\Items\Health\LightPotion.cs" />
+    <Compile Include="Models\Items\WeaponItems\Axes\JourneymanBattleAxe.cs" />
+    <Compile Include="Models\Items\WeaponItems\Sword\Grandfather.cs" />
+    <Compile Include="Models\Items\WeaponItems\Sword\LongSword.cs" />
+    <Compile Include="Models\QuestEncounters\QuestEncounters.cs" />
+    <Compile Include="Models\Containers\Backpack.cs" />
+    <Compile Include="Models\Containers\Inventory.cs" />
+    <Compile Include="Models\Containers\Slot.cs" />
+    <Compile Include="Models\Heroes\Barbarian.cs" />
+    <Compile Include="Models\Heroes\Dwarf.cs" />
+    <Compile Include="Models\Heroes\Hero.cs" />
+    <Compile Include="Enums\Enemies.cs" />
+    <Compile Include="Factories\EnemyFactory.cs" />
+    <Compile Include="Models\Enemies\BloodElf.cs" />
+    <Compile Include="Models\Enemies\Enemy.cs" />
+    <Compile Include="Models\Enemies\Goblin.cs" />
+    <Compile Include="Models\Enemies\Orc.cs" />
+    <Compile Include="Models\Enemies\Vampire.cs" />
+    <Compile Include="Models\Heroes\Paladin.cs" />
+    <Compile Include="IO\Console\ConsoleReader.cs" />
+    <Compile Include="IO\Console\ConsoleWriter.cs" />
+    <Compile Include="Models\Items\ArmorItems\ArmorItem.cs" />
+    <Compile Include="Models\Items\Health\MinorPotion.cs" />
+    <Compile Include="Models\Items\Health\HealthPotion.cs" />
+    <Compile Include="Models\Items\Item.cs" />
+    <Compile Include="Models\Items\WeaponItems\Sling\Sling.cs" />
+    <Compile Include="Models\Items\WeaponItems\Sword\Sword.cs" />
+    <Compile Include="Models\Items\WeaponItems\Weapon.cs" />
+    <Compile Include="Models\Items\WeaponItems\Axes\AxeOfWrath.cs" />
+    <Compile Include="Models\Quests\HuntQuest.cs" />
+    <Compile Include="Utilities\EngineConstants.cs" />
+    <Compile Include="Utilities\GameConstants.cs" />
+    <Compile Include="Utilities\ItemConstants.cs" />
+    <Compile Include="Utilities\QuestGamePlayControllerConstants.cs" />
+    <Compile Include="Utilities\QuestReaderConstants.cs" />
+    <Compile Include="Utilities\Validator.cs" />
+    <Compile Include="Properties\Annotations.cs" />
+    <Compile Include="Models\Quests\Quest.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\EnemyConstants.cs" />
+    <Compile Include="Utilities\HeroConstants.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

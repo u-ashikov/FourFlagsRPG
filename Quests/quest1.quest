@@ -1,0 +1,29 @@
+Quest file must end with .quest and have:
+#Type - GatherQuest or HuntQuest
+HuntQuest
+#Name
+Stop the Dark Elfs before it is too late.
+#Description
+
+Please, champion. You're a sight for sore eyes.
+
+Things have been too quiet lately, far too quiet. 
+Our scouts report many small armies have set up camp on the borders of our lands, war is surely upon us.
+We need you to disrupt their activities, slow them down while we gather more forces. 
+Do anything you can to halt those horrible elves.
+If you think you'll need any help, I'm willing to come along.
+Please, take care of those elves. You can kill as many of them as you wish, destroy all of them if you want, curse those lowlives.
+
+I wish I could pay you far more than I can, but what I can pay isn't less than what's fair either. 
+Safe journey, hero. We believe in you!
+
+#Destination
+Border with Asyllenora the Elven City
+#Enviroment
+Forest
+#Progress
+1
+#ItemRewards (item - id)
+3 1
+#ExperienceReward
+100

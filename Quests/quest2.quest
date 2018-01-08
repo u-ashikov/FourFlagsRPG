@@ -1,0 +1,29 @@
+Quest file must end with .quest and have:
+#Type - GatherQuest or HuntQuest
+HuntQuest
+#Name
+Avenge Chasans wife.
+#Description
+Forgive me, traveler. I am Chasan Kinallg.
+
+I don't think I can control my fury any longer, hero. My wife, they ki.. they kil.. .. 
+Hero, please, you've got to help me.
+Retribution and vengeance are necessary, please unleash it upon those worthless dwarves.
+Go to Moggron, the city of the dwarves, kill as many. I doubt you'll have problems. 
+I'm not asking you to kill all of them, just make sure you do what I ask of you.
+
+I hope you're not looking for a big reward, but we'll still be able to reward you with somethind decent. 
+
+Please succeed hero, we believe in you!
+
+Get a battle quest
+#Destination
+Moggron
+#Enviroment
+City
+#Progress
+2
+#ItemRewards (item - id)
+2 9 17
+#ExperienceReward
+75

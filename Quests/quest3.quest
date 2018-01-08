@@ -1,0 +1,31 @@
+Quest file must end with .quest and have:
+#Type - GatherQuest or HuntQuest
+HuntQuest
+#Name
+Find the goods and return them to Barrmois.
+#Description
+Barrmois Jaygaf's my name, champion. Would you lend me your aid.
+
+My generosity has been taken advantage of. 
+The other day I took in travelers in need of shelter, they repaid me by robbing me.
+I called for the guards and they came in time, but unfortunately they were no match.
+Please, hero, retrieve my goods and get rid of those orcs. 
+I wish I could join you, but alas I cannot. Know that I've put all my faith in you, you will succeed. I know it.
+They're hiding in the Plain Covert. I'm sure you're capable to deal with those creatures.
+You can take out as many of them as you like, the less of those lowlives there are in this world, the better.
+
+I cannot thank you enough for your help, I'll make sure to reward you greatly once you return. 
+
+I'm looking forward to your return, hero. Good luck.
+
+Get a battle quest
+#Destination
+Plain Covert
+#Enviroment
+Forest
+#Progress
+3
+#ItemRewards (item - id)
+5 8 25
+#ExperienceReward
+150

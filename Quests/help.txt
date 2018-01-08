@@ -1,0 +1,9 @@
+Quest file must end with .quest and have:
+#Type - HuntQuest
+#Name
+#Description
+#Destination
+#Enviroment
+#Progress
+#ItemRewards (item - id)
+#ExperienceReward

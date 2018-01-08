@@ -1,0 +1,16 @@
+C:\Users\uashi\Documents\GitHub\FourFlagsRPG\FourFlags.BusinessLogic\bin\Debug\FourFlags.BusinessLogic.dll
+C:\Users\uashi\Documents\GitHub\FourFlagsRPG\FourFlags.BusinessLogic\bin\Debug\FourFlags.BusinessLogic.pdb
+C:\Users\uashi\Documents\GitHub\FourFlagsRPG\FourFlags.BusinessLogic\bin\Debug\FourFlagsRPG.Models.dll
+C:\Users\uashi\Documents\GitHub\FourFlagsRPG\FourFlags.BusinessLogic\bin\Debug\FourFlagsRPG.Models.pdb
+C:\Users\uashi\Documents\GitHub\FourFlagsRPG\FourFlags.BusinessLogic\obj\Debug\FourFlags.BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\uashi\Documents\GitHub\FourFlagsRPG\FourFlags.BusinessLogic\obj\Debug\FourFlags.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\uashi\Documents\GitHub\FourFlagsRPG\FourFlags.BusinessLogic\obj\Debug\FourFlags.BusinessLogic.dll
+C:\Users\uashi\Documents\GitHub\FourFlagsRPG\FourFlags.BusinessLogic\obj\Debug\FourFlags.BusinessLogic.pdb
+C:\Users\uashi\Desktop\RPG\FourFlags.BusinessLogic\bin\Debug\FourFlags.BusinessLogic.dll
+C:\Users\uashi\Desktop\RPG\FourFlags.BusinessLogic\bin\Debug\FourFlags.BusinessLogic.pdb
+C:\Users\uashi\Desktop\RPG\FourFlags.BusinessLogic\bin\Debug\FourFlagsRPG.Models.dll
+C:\Users\uashi\Desktop\RPG\FourFlags.BusinessLogic\bin\Debug\FourFlagsRPG.Models.pdb
+C:\Users\uashi\Desktop\RPG\FourFlags.BusinessLogic\obj\Debug\FourFlags.BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\uashi\Desktop\RPG\FourFlags.BusinessLogic\obj\Debug\FourFlags.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\uashi\Desktop\RPG\FourFlags.BusinessLogic\obj\Debug\FourFlags.BusinessLogic.dll
+C:\Users\uashi\Desktop\RPG\FourFlags.BusinessLogic\obj\Debug\FourFlags.BusinessLogic.pdb
